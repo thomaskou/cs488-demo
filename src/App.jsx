@@ -149,6 +149,12 @@ function App() {
             ]}
           />
         </Figure>
+        <Figure caption="Render time comparison with a voxel size of 16.0.">
+          <ImageRow
+            className="max-h-80"
+            images={["archive-13-grid.png", "uniform-graph.png"]}
+          />
+        </Figure>
       </div>
       <div className="flex flex-col gap-5">
         <Section
